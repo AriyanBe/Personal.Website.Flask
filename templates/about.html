@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>The field of Computer Science has always captivated my interest, as it offers a platform for me to exercise my cognitive abilities
+             and innovate novel solutions. My ardor for technology, particularly software
+              and artificial intelligence, has driven me to seek new ways to develop
+               and implement cutting-edge ideas. I am eager to leverage my skills to craft solutions 
+               to real-world problems and contribute to the advancement of this field.</p>
+        <div class="buttons">
+            <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+            <a href="{{ url_for('contact') }}" class="btn">Contact Me</a>
+            <a href="{{ url_for('projects') }}" class="btn">Projects</a>
+        </div>
+    </div>
+</body>
+</html>

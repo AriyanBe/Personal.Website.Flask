@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("{{ url_for('static', filename='CSBody.jpg') }}");
+    color: #0ddae9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sci-fi-heading {
+    color: #00ffcc;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #00b38f;
+}
+
+.btn-sci-fi {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-sci-fi:hover {
+    background-color: #0056b3;
+}
+
+.more-projects {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

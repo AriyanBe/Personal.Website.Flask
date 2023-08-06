@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Email: <a href="mailto:ariyanmesh@gmail.com">ariyanmesh@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/AriyanBe" target="_blank">AriyanBe</a></p>
+        <div class="buttons">
+            <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+            <a href="{{ url_for('about') }}" class="btn">About Me</a>
+            <a href="{{ url_for('projects') }}" class="btn">Projects</a>
+        </div>
+    </div>
+</body>
+</html>

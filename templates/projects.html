@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="sci-fi-heading">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <h2>GUI GradeBook</h2>
+                <p>A graphical user interface (GUI) GradeBook application.</p>
+                <a href="https://github.com/AriyanBe/GUI-GradeBook" target="_blank" class="btn btn-sci-fi">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>A Mapping of Digits</h2>
+                <p>A project description for A Mapping of Digits.</p>
+                <a href="https://github.com/AriyanBe/A-mapping-of-digits-" target="_blank" class="btn btn-sci-fi">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>LeetCode Answers</h2>
+                <p>Answers to LeetCode coding problems.</p>
+                <a href="https://github.com/AriyanBe/LeetCode_Answers" target="_blank" class="btn btn-sci-fi">View on GitHub</a>
+            </div>
+        </div>
+        <div class="more-projects">
+            <p>For more projects, visit my GitHub:</p>
+            <a href="https://github.com/AriyanBe" target="_blank" class="btn btn-sci-fi">GitHub Profile</a>
+        </div>
+        <div class="buttons">
+            <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+            <a href="{{ url_for('about') }}" class="btn">About Me</a>
+            <a href="{{ url_for('contact') }}" class="btn">Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>
