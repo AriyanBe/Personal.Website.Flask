@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: #21dd76;
+    color: #0056b3;
 }
 
 .buttons {
@@ -69,7 +69,6 @@ a:hover {
 .btn:hover {
     background-color: #21dd76;
 }
-
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .container {
