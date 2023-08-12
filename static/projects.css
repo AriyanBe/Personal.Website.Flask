@@ -1,9 +1,9 @@
-/* styles.css */
+/* projects.css */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("{{ url_for('static', filename='CSBody.jpg') }}");
+    background-image: url("./CSBody.jpg");
     color: #0ddae9;
 }
 
