@@ -43,21 +43,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Build and deploy to GitHub Pages
-        run: |
-          # Replace these commands with your actual build and deploy steps
-          # For example, if you're building a static site and deploying to GitHub Pages:
-          # npm install
-          # npm run build
-          # gh-pages -d dist
 
-      - name: Deployed to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Deploy the built files to GitHub Pages
-          # This uses the GITHUB_TOKEN secret for authentication
-          # For example, using the gh-pages package:
-          # npm install -g gh-pages
-          # gh-pages -d dist
 
