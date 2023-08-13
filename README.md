@@ -1,1 +1,1 @@
-# Personal Website using Python(Pelican), HTML and CSS
+# Personal Website using Python(Flask), HTML and CSS
