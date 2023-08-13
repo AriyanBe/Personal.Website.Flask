@@ -1,7 +1,0 @@
-services:
-  webpage:
-    build: .
-    volumes:
-      - .:/webpage
-    ports:
-      - 5000:5000
