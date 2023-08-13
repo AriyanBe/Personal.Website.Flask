@@ -69,6 +69,15 @@ a:hover {
 .btn:hover {
     background-color: #21dd76;
 }
+
+footer{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .container {
