@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.11-flask
 WORKDIR /webpage
 COPY requirements.txt .
 RUN pip install --upgrade pip
